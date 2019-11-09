@@ -5,6 +5,7 @@
     "main": "index.js",
     "scripts": {
         "server-up": "cd src && node index.js",
+        "prettier-fix": "npx pretty-quick check",
         "lint": "eslint --ignore-path .gitignore . --fix"
     },
     "author": "",
